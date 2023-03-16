@@ -2,8 +2,18 @@
     padding: 0;
     margin:0;
     box-sizing: border-box;
+    
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:10px;
 }
 
 body{
-    background-image: url("neontree.jpg");
+    background-image: url("images/neontree.png");
+    background-size:100%;
+    background-repeat: no-repeat;
 }
