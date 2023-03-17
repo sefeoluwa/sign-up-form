@@ -50,6 +50,7 @@ html{
  .form-up{
    margin-left: 40px;
    border-radius: 10px;
+   
  }
 
  .signup{
@@ -82,5 +83,5 @@ html{
  .signup:hover, .signin:hover{
     background-color: #000000;
     color:#ffffff;
-    transition:0.02s;
+    transition-delay: 0s;
  }
