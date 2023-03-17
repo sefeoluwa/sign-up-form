@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
 
-
-html, body{
-    background-image: url(images/forest.jpg);
+html{
+    background-image: url(images/neontree.png);
     background-size: 100%;
     background-repeat: no-repeat;
     padding: 0;
     margin:0;
     box-sizing: border-box;
     color:#ffffff;
-    
+    font-family: 'Climate crisis', cursive;
 }
 
 .main{
@@ -17,14 +17,18 @@ html, body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 200px;
-    height: 30vh;
+    margin-top: 10px;
+    -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  height:100vh;
 }
 
 .company-name{
-    font-size: 90px;
-    font-family: 'Climate Crisis', cursive;
-    
+    margin-top: 10px;
+    font-size: 100px;
+    font-family: 'Rubik Iso', cursive;
+    font-weight: 2000;
+    font-style: oblique;
 }
 
 
