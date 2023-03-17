@@ -36,23 +36,51 @@ html{
  .buttons{
     display:flex;
     margin-top: 100px;
-    font-size: 30px;
+    font-size: 20px;
+    
+ }
+
+ .form-in{
+   margin-right:40px;
+   
+   
+
+ }
+
+ .form-up{
+   margin-left: 40px;
+   border-radius: 10px;
  }
 
  .signup{
-    margin-right: 100px;
-    border: 3px solid black;
-    width:150px;
-    padding:10px 0 10px 80px;
+    width:250px;
+    padding:10px;
+    font-size: 30px;
+    margin-right: 30px;
+    background-color:transparent;
+    cursor: pointer;
+   color:#ffffff;
+   border: 3px solid #ffff;
+   border-radius: 30px;
+   box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
  }
 
  .signin{
-    margin-left: 100px;
-    border: 3px solid black;
-    width:150px;
-    padding:10px 0 10px 80px;
+    font-size: 30px;
+    background-color:transparent;
+    width:250px;
+    padding:10px;
+    cursor: pointer;
+   color:#ffffff;
+   border: 3px solid #ffff;
+   border-radius: 30px;
+   box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
 }
 
- a{
-    text-decoration: none;
+ 
+
+ .signup:hover, .signin:hover{
+    background-color: #000000;
+    color:#ffffff;
+    transition:0.02s;
  }
