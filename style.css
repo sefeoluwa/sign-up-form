@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
 
 html{
@@ -8,28 +8,51 @@ html{
     padding: 0;
     margin:0;
     box-sizing: border-box;
-    color:#ffffff;
-    font-family: 'Climate crisis', cursive;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .main{
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    margin-top: 10px;
     -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
   height:100vh;
 }
 
 .company-name{
-    margin-top: 10px;
     font-size: 100px;
     font-family: 'Rubik Iso', cursive;
     font-weight: 2000;
-    font-style: oblique;
 }
 
+.text-content{
+    font-size: 50px;
+    color:aliceblue;
+    margin-top:100px;
+}
 
+ .buttons{
+    display:flex;
+    margin-top: 100px;
+    font-size: 30px;
+ }
 
+ .signup{
+    margin-right: 100px;
+    border: 3px solid black;
+    width:150px;
+    padding:10px 0 10px 80px;
+ }
+
+ .signin{
+    margin-left: 100px;
+    border: 3px solid black;
+    width:150px;
+    padding:10px 0 10px 80px;
+}
+
+ a{
+    text-decoration: none;
+ }
