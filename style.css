@@ -2,6 +2,7 @@
 
 
 html, body{
+    background-image: url(images/forest.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     padding: 0;
@@ -12,7 +13,17 @@ html, body{
 
 
 .company-name{
+    color:aliceblue;
     font-family: 'Climate Crisis', cursive;
     
 }
+
+.icon{
+    color:white;
+}
+
+.fa{
+    color:aliceblue;
+}
+
 
