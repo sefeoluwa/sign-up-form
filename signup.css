@@ -18,19 +18,46 @@
 }
 
 .img{
-    width:40vw;
+    width:45vw;
     height:100vh;
 }
 
 .form{
     background-color: #000000;
-    padding-left:5vw;
+    padding-left:3vw;
     display:flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
     flex-wrap: wrap;
-    width:60vw;
+    width:55vw;
     height:100vh;
     color:#ffffff
+}
+
+.header{
+    font-size: 30px;
+  
+}
+
+.labels{
+    font-size: 25px;
+    padding:10px;
+}
+
+input{
+    height:40px;
+    width: 400px;
+    font-size: 0.7rem;
+    background: transparent;
+    color:#ffffff;
+    font-size:20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;;
+}
+
+input:focus{
+    background-color:  	#6495ED;
+    color:black;
+    
 }
