@@ -72,6 +72,7 @@
     display:flex;
     flex-flow: row wrap;
     width:40vw;
+    height: 70vh;
     box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.4);
 }
 
@@ -88,15 +89,14 @@ input{
     margin-bottom: 10px;
 }
 
-input:focus{
+input:hover{
    outline: none;
     border: 3px solid #FF69B4;
    background: transparent;
     
 }
 
-input:-webkit-autofill,
-input:-webkit-autofill:hover, 
+input:-webkit-autofill, 
 input:-webkit-autofill:focus
  {
     outline: none;
@@ -124,4 +124,9 @@ input:-webkit-autofill:focus
     transition: 0.3s;
 }
 
-
+.validate{
+    font-size: 15px;
+    margin:10px;
+    font-family: 'Times New Roman', Times, serif;
+    color:#FF69B4;
+}
