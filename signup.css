@@ -91,7 +91,24 @@ input{
 input:focus{
    outline: none;
     border: 3px solid #FF69B4;
+   background: transparent;
+    
 }
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus
+ {
+    outline: none;
+    border: 3px solid #ffffff;
+   background: transparent;
+ 
+  -webkit-text-fill-color: #ffffff;
+  -webkit-box-shadow: 0 0 0px 1000px #14213D inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+
 
 #submit{
     font-size:25px;
