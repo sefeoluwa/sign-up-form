@@ -1,5 +1,143 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@200&display=swap');
+
+
+:root{
     padding: 0;
     margin:0;
+   
     box-sizing: border-box;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: bold;
 }
+
+#main{
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height:100vh;
+    width:100vw;
+    
+    
+}
+
+.side-image{
+    width:45vw;
+    height:100vh;
+    background-image: url(images/neontree.png);
+    background-size: 45vw 100vh;
+}
+
+.company-name{
+    font-size: 100px;
+    font-family: 'Rubik Iso', cursive;
+    font-weight: 2000;
+    color:#ffffff;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    top: 20vh;
+    padding: 15px 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:45vw;
+}
+
+.form{
+    background-color: #14213D;
+    padding-left:3vw;
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width:55vw;
+    height: 100vh;
+    color:#ffffff;
+    
+}
+
+.dummy-text{
+    font-size: 35px;
+    margin-top: 60px;
+  
+}
+
+.labels{
+    font-size: 30px;
+    padding:10px;
+    display:flex;
+    flex-flow: row wrap;
+    width:40vw;
+    height: 75vh;
+    box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.4);
+}
+
+input{
+    height:40px;
+    width: 100vw;
+    font-size: 0.7rem;
+    background: transparent;
+    color:#ffffff;
+    font-size:20px;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input:hover{
+   outline: none;
+    border: 3px solid #FF69B4;
+   background: transparent;
+    
+}
+
+input:-webkit-autofill, 
+input:-webkit-autofill:focus
+ {
+    outline: none;
+    border: 3px solid #ffffff;
+   background: transparent;
+ 
+  -webkit-text-fill-color: #ffffff;
+  -webkit-box-shadow: 0 0 0px 1000px #14213D inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+
+
+#submit{
+    font-size:25px;
+    width: 15vw;
+    height:7vh;
+    cursor:pointer;
+    border: 4px solid #ffffff;
+}
+
+#submit:hover{
+    background-color: #219ebc;
+    color:#000000;
+    transition: 0.3s;
+}
+
+.validate{
+    font-size: 15px;
+    margin:10px;
+    font-family: 'Times New Roman', Times, serif;
+    color:#FF69B4;
+}
+
+.signin{
+    margin-left: 8vw;
+}
+
+a{
+    text-decoration: none;
+    color:#219ebc;
+}
+
+
