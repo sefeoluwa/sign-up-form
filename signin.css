@@ -6,7 +6,7 @@
 :root{
     padding: 0;
     margin:0;
-   
+   position:fixed;
     box-sizing: border-box;
     font-family: 'Big Shoulders Display', cursive;
     font-weight: bold;
@@ -71,14 +71,16 @@
     padding:10px;
     display:flex;
     flex-flow: row wrap;
-    width:40vw;
-    height: 75vh;
+    width:30vw;
+    height: 50vh;
     box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.4);
+    margin-top: 10vh;
+    margin-left: 4vw;
 }
 
 input{
     height:40px;
-    width: 100vw;
+    width: 30vw;
     font-size: 0.7rem;
     background: transparent;
     color:#ffffff;
@@ -112,8 +114,8 @@ input:-webkit-autofill:focus
 
 #submit{
     font-size:25px;
-    width: 15vw;
-    height:7vh;
+    width: 30vw;
+    height:5vh;
     cursor:pointer;
     border: 4px solid #ffffff;
 }
@@ -124,14 +126,8 @@ input:-webkit-autofill:focus
     transition: 0.3s;
 }
 
-.validate{
-    font-size: 15px;
-    margin:10px;
-    font-family: 'Times New Roman', Times, serif;
-    color:#FF69B4;
-}
 
-.signin{
+.signup{
     margin-left: 8vw;
 }
 
@@ -141,3 +137,27 @@ a{
 }
 
 
+.remember{
+    font-size: 25px;
+    
+}
+
+#remember-me{
+    width:20px;
+    height:20px;
+    cursor:pointer;
+}
+
+.forgot{
+    margin-left:17vw;
+    font-size: 25px;
+}
+
+.signup{
+    font-size: 25px;
+    margin-left:0;
+}
+
+.sgn-up{
+    margin-left:17vw;
+}
