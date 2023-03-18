@@ -55,14 +55,14 @@
     flex-direction: column;
     flex-wrap: wrap;
     width:55vw;
-    height:100vh;
+    height: 100vh;
     color:#ffffff;
     
 }
 
 .dummy-text{
     font-size: 35px;
-    margin-top: 70px;
+    margin-top: 60px;
   
 }
 
@@ -72,7 +72,7 @@
     display:flex;
     flex-flow: row wrap;
     width:40vw;
-    height: 70vh;
+    height: 75vh;
     box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.4);
 }
 
@@ -119,7 +119,7 @@ input:-webkit-autofill:focus
 }
 
 #submit:hover{
-    background-color: #ffffff;
+    background-color: #219ebc;
     color:#000000;
     transition: 0.3s;
 }
@@ -129,4 +129,13 @@ input:-webkit-autofill:focus
     margin:10px;
     font-family: 'Times New Roman', Times, serif;
     color:#FF69B4;
+}
+
+.signin{
+    margin-left: 8vw;
+}
+
+a{
+    text-decoration: none;
+    color:#219ebc;
 }
