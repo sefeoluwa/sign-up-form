@@ -4,38 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
     <title>Sign Up</title>
 </head>
 <body>
+    <div id="main" >
+        <div class="side-image">
+            <img src="images/neontree.png" alt="Descriptive Image" class="img" />
+        </div>
 
-    <div class="side-image">
-        <img src="" alt="Descriptive Image"/>
-    </div>
+        <div class="form">
+            <h2>Create A New Account</h2>
+            <p>Already have an account?</p>
+            <a href="signin.html">Sign In</a>
 
-    <div class="form">
-        <h2>Create A New Account</h2>
-        <p>Already have an account?</p>
-        <a href="signin.html">Sign In</a>
+            <form>
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" required>
+                <br/>
 
-        <form>
-            <label for="first-name">First Name</label>
-            <input type="text" id="first-name" required>
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" required>
+                <br>
 
-            <label for="last-name">Last Name</label>
-            <input type="text" id="last-name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+                <br>
 
-            <label for="email">Email</label>
-            <input type="email" id="email" required>
+                <label for="password">Password</label>
+                <input type="password" id="password" required>
+                <br>
 
-            <label for="password">Password</label>
-            <input type="password" id="password" required>
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" required>
+                <br>
 
-            <label for="confirm-password">Confirm Password</label>
-            <input type="password" id="confirm-password" required>
-
-            <label for="submit">Let's Get You Started!</label>
-            <input type="submit" id="submit">
-        </form>
+                <label for="submit">Let's Get You Started!</label>
+                <input type="submit" id="submit">
+                <br>
+            </form>
+        </div>
     </div>
 </body>
 </html>
