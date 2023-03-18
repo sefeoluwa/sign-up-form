@@ -35,7 +35,7 @@
     color:#ffffff
 }
 
-.header{
+.dummy-text{
     font-size: 30px;
   
 }
@@ -43,21 +43,29 @@
 .labels{
     font-size: 25px;
     padding:10px;
+    display:flex;
+    flex-flow: row wrap;
+    width:40%;
 }
 
 input{
     height:40px;
-    width: 400px;
+    width: 100vw;
     font-size: 0.7rem;
     background: transparent;
     color:#ffffff;
     font-size:20px;
     border: 1px solid #ffffff;
-    border-radius: 5px;;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 input:focus{
-    background-color:  	#6495ED;
-    color:black;
-    
+   outline: none;
+    border: 1px solid #FF69B4;
+}
+
+#submit{
+    background-color: #FF69B4;
 }
